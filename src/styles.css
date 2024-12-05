@@ -1,0 +1,47 @@
+:root{
+    background-color: rgb(214, 242, 233);
+}
+h1{
+    color: rgb(0, 89, 178);
+}
+
+.avatar > img {
+    border-radius: 50%;
+    margin: 1em;
+    
+}
+
+.avatar > img:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out; /* Suaviza la transformación */
+}
+
+.content{
+    display: flex;
+    margin-top: 3em;
+}
+
+.item{
+    flex: 1
+}
+
+
+.time{
+    font-weight: bold;
+}
+
+.menuTop{
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menuTop > div{
+    margin: 30px;
+}
+
+.menuTop > div > img{
+    color: white;
+}
